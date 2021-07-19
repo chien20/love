@@ -703,8 +703,8 @@ button:focus {
   animation: pulse 1.6s linear infinite;
   background-image: linear-gradient(
               to right,
-              #E33ED9,
-              #FFA70F
+              #FFA70F,
+              
             );
 }
 

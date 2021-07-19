@@ -701,25 +701,21 @@ button:focus {
   box-sizing: border-box;
   transform: scale(0);
   animation: pulse 1.6s linear infinite;
-  background-image: linear-gradient(
-              to right,
-              #E33ED9,
-              #FFA70F
-            );
+  background: rgb(81, 202, 156);
 }
 
 .circle-pulse__1 {
-  width: 12rem;
-  height: 12rem;
-  margin-top: -6rem;
-  margin-left: -6rem;
+  width: 18rem;
+  height: 24rem;
+  margin-top: -12rem;
+  margin-left: -9rem;
 }
 
 .circle-pulse__2 {
-  width: 9rem;
-  height: 9rem;
-  margin-top: -4.5rem;
-  margin-left: -4.5rem;
+  width: 16.8rem;
+  height: 22.4rem;
+  margin-top: -11.2rem;
+  margin-left: -8.4rem;
   animation-delay: -0.8s;
 }
 
