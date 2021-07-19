@@ -1,0 +1,361 @@
+
+body {
+  background: linear-gradient(to bottom right, #f7ef80 0%, #fd69b4 100%);
+  color: #000000;
+}
+
+.bg-triangles {
+  background-color: #F0F2F5;
+  background-image: url(../images/triangles-top.svg), url(../images/triangles-bottom.svg);
+}
+
+/* -----------------------------------------------------------------
+    - Typography
+----------------------------------------------------------------- */
+h1, h2, h3, h4, h5, h6 {
+  color: rgb(190, 79, 97);
+}
+.title--h3 {
+  color: rgb(226, 205, 10);
+  font-weight: 500;
+  font-size: 20px;
+}
+.title--h4 {
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+.title--h6 {
+  color: rgb(226, 205, 10);
+  letter-spacing: 0.5px;
+}
+.title__separate::before {
+  background: linear-gradient(to bottom right, #f7ef80 0%, #fd69b4 100%);
+}
+.quote {
+  font-size: 18px;
+}
+.quote i {
+  color: rgb(226, 205, 10);
+}
+
+.overhead {
+  color: rgb(190, 79, 97);
+}
+
+.block-quote::before {
+  background-image: url(../icons/icon-quote-dark.svg);
+}
+.block-quote__author::before {
+  background-color: #000000;
+}
+
+iframe {
+  background-color: #5E6E80;
+}
+
+
+.title-name {
+  font-size: 2rem;
+}
+
+.box-about {
+  margin-bottom: 1.875rem;
+}
+@media only screen and (max-width: 580px) {
+.box-about {
+    margin-bottom: 0.9375rem;
+}
+}
+
+/* -----------------------------------------------------------------
+    - Form
+----------------------------------------------------------------- */
+.form-control, .textarea, select,
+.custom-select {
+  background-color: #2E2F36;
+  border-color: #2E2F36;
+  color: #000000;
+}
+
+.form-control:focus, .textarea:focus, select:focus,
+.custom-select:focus {
+  background-color: #ffffff;
+  border-color: #33363D;
+  color: #000000;
+}
+
+.form-group .font-icon {
+  color: #000000;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: #93959C;
+}
+
+.form-control::-moz-placeholder {
+  color: #93959C;
+}
+
+.form-control:-ms-input-placeholder {
+  color: #93959C;
+}
+
+.form-control::-ms-input-placeholder {
+  color: #93959C;
+}
+
+.form-control::placeholder {
+  color: #93959C;
+}
+
+.custom-control-input:focus ~ .custom-control-label::before {
+  box-shadow: 0 0 0 0.2rem rgba(13, 134, 255, 0.25);
+}
+.custom-control-input:focus:not(:checked) ~ .custom-control-label::before {
+  border-color: rgb(190, 79, 97);
+}
+.custom-control-input:not(:disabled):active ~ .custom-control-label::before {
+  border-color: #fff;
+}
+.custom-control-input:checked ~ .custom-control-label::before {
+  border-color: rgb(190, 79, 97);
+  background-color: rgb(190, 79, 97);
+}
+
+.custom-control-label::before {
+  border-color: #000000;
+}
+
+select option,
+.custom-select option {
+  color: #000000;
+}
+
+.dropdown-menu {
+  background-color: #33363D;
+  box-shadow: 0 0.5rem 2.5rem rgba(0, 0, 0, 0.5);
+  color: #000000;
+}
+.dropdown-menu::before {
+  border-top: 0.375rem solid #33363D;
+}
+.dropdown.dropup .dropdown-menu::before {
+  border-top: 0.375rem solid #33363D;
+}
+
+.tooltip-inner {
+  background-color: #000000;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.25), 0 0.125rem 1rem rgba(0, 0, 0, 0.5);
+}
+
+.bs-tooltip-top .arrow::before,
+.bs-tooltip-auto[x-placement^="top"] .arrow::before {
+  border-top-color: #000000;
+}
+
+.bs-tooltip-right .arrow::before,
+.bs-tooltip-auto[x-placement^="right"] .arrow::before {
+  border-right-color: #000000;
+}
+
+.bs-tooltip-left .arrow::before,
+.bs-tooltip-auto[x-placement^="left"] .arrow::before {
+  border-left-color: #000000;
+}
+
+.bs-tooltip-bottom .arrow::before,
+.bs-tooltip-auto[x-placement^="bottom"] .arrow::before {
+  border-bottom-color: #000000;
+}
+
+.btn {
+  background-image: linear-gradient(142.17deg, #49b676 6.66%, #4cc752 91.48%);
+  color: #000000;
+}
+.btn:hover {
+  color: #000000;
+}
+
+/* -----------------------------------------------------------------
+    - Preloader
+----------------------------------------------------------------- */
+.preloader {
+  background: linear-gradient(to bottom right, #f7ef80 0%, #fd69b4 100%);
+}
+.preloader__progress {
+  background: linear-gradient(to bottom right, #f7ef80 0%, #fd69b4 100%);
+}
+
+/* -----------------------------------------------------------------
+    - Header
+----------------------------------------------------------------- */
+.header__left::before {
+  background: linear-gradient(to bottom right, #f7ef80 0%, #fd69b4 100%);
+}
+.header__photo {
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+.header__social a {
+  color: #93959C;
+}
+.header__social a:hover {
+  color: rgb(190, 79, 97);
+}
+.header__contact {
+  color: #000000;
+}
+
+/* -----------------------------------------------------------------
+    - Sections
+----------------------------------------------------------------- */
+.box {
+  background-color: #ffffff;
+  box-shadow: -4px 8px 24px rgba(0, 0, 0, 0.07);
+}
+.box__border {
+  border-color: #33363D;
+}
+
+.social__link {
+  color: #000000;
+}
+
+/* -----------------------------------------------------------------
+    - Cases
+----------------------------------------------------------------- */
+.case-item {
+  border-color: rgb(190, 79, 97);;
+}
+
+/* -----------------------------------------------------------------
+    - Navbar
+----------------------------------------------------------------- */
+@media only screen and (max-width: 991px) {
+  .sidebar {
+    border-color: #33363D;
+  }
+}
+@media only screen and (max-width: 580px) {
+  .sidebar {
+    box-shadow: 0px 20px 40px rgba(103, 118, 128, 0.2);
+  }
+}
+
+.nav__item a {
+  background-color: #2E2F36;
+  color: #000000;
+}
+.nav__item a:hover {
+  color: rgb(190, 79, 97);
+}
+@media only screen and (max-width: 580px) {
+  .nav__item a {
+    background-color: transparent;
+  }
+}
+.nav__item a.active {
+  background-image: linear-gradient(142.17deg, #49b676 6.66%, #4cc752 91.48%);
+  box-shadow: inset -4px -4px 5px rgba(0, 0, 0, 0.2), inset 4px 4px 5px rgba(255, 255, 255, 0.23);
+  color: #000000;
+}
+.nav__item a.active:hover {
+  color: #000000;
+}
+@media only screen and (max-width: 580px) {
+  .nav__item a.active {
+    background-image: none;
+    box-shadow: none;
+    color: rgb(190, 79, 97);
+  }
+  .nav__item a.active:hover {
+    color: rgb(190, 79, 97);
+  }
+  .nav__item a.active::before {
+    background-color: rgb(190, 79, 97);
+  }
+}
+
+/* -----------------------------------------------------------------
+    - Footer
+----------------------------------------------------------------- */
+.footer {
+  color: #585858;
+}
+
+/* -----------------------------------------------------------------
+    - Portfolio
+----------------------------------------------------------------- */
+@media only screen and (min-width: 769px) {
+  .filter__item::before {
+    background-color: #000000;
+  }
+  .filter__item a {
+    color: rgba(174, 176, 184, 0.8);
+  }
+  .filter__item.active a {
+    color: #000000;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .select {
+    background-color: #2E2F36;
+  }
+  .select ul {
+    background-color: #2E2F36;
+    box-shadow: 0 0.625rem 3.75rem rgba(0, 0, 0, 0.5);
+  }
+  .select ul li {
+    color: #000000;
+  }
+  .select ul li:hover {
+    background-color: rgb(190, 79, 97);
+  }
+  .select ul li:hover a {
+    color: #000000;
+  }
+  .select ul li a {
+    color: #000000;
+  }
+}
+
+/* -----------------------------------------------------------------
+    - Timeline
+----------------------------------------------------------------- */
+.timeline__item {
+  border-color: #33363D;
+}
+.timeline__item::before {
+  background-color: rgb(190, 79, 97);
+  box-shadow: 0 0 0 0.1875rem rgba(13, 134, 255, 0.25);
+}
+.timeline__period {
+  color: rgba(174, 176, 184, 0.7);
+}
+
+/* Progress  */
+.progress {
+  background-color: #2E2F36;
+}
+.progress-bar {
+  background-image: linear-gradient(142.17deg, #49b676 6.66%, #4cc752 91.48%);
+}
+
+/* -----------------------------------------------------------------
+    - Other
+----------------------------------------------------------------- */
+.back-to-top {
+  border-top: 1px solid #000000;
+  border-left: 1px solid #000000;
+}
+
+.medium-zoom-overlay {
+  background-image: linear-gradient(
+              to right,
+              #FFCD2B,
+              #FB07EE
+            ) !important;
+}
+
+/*# sourceMappingURL=style-dark.css.map */
